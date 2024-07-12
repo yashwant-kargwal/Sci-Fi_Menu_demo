@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+}
+
+.outer-menu{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    overflow: hidden;
+}
+
+.menu-list{
+    width: 20%;
+    height: 100%;
+    border: 10px solid black;
+    transform: skew(-6deg);
+    display: flex;
+    transition: 0.8s;
+}
+
+.menu-list:hover{
+    width: 90%;
+    cursor: pointer;
+}
+
+#li1{
+    background: url(assets/2150163775.jpg) center;
+    background-size: cover;
+}
+
+#li1::after{
+    content: "Home";
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+#li2{
+    background: url(assets/26010.jpg) center;
+    background-size: cover;
+}
+
+#li2::after{
+    content: "About US";
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+#li3{
+    background: url(assets/2151003804.jpg) center;
+    background-size: cover;
+}
+
+#li3::after{
+    content: "Blog";
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+#li4{
+    background: url(assets/2151137382.jpg) center;
+    background-size: cover;
+}
+
+#li4::after{
+    content: "Projects";
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+#li5{
+    background: url(assets/2151003789.jpg) center;
+    background-size: cover;
+}
+
+#li5::after{
+    content: "Contact Us";
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    /* visibility: hidden; */
+}
+
+#li5:hover{
+    visibility: visible;
+    z-index: 3;
+}
+
+.content{
+    /* position: absolute; */
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+    /* top: 40%; */
+    /* left: 35%; */
+}
+
+h2{
+    color: white;
+    font-size: 5em;
+    text-shadow: 5px 5px 5px black;
+}
