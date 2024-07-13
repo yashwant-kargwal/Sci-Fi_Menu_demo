@@ -24,7 +24,7 @@ body{
     border: 10px solid black;
     transform: skew(-6deg);
     display: flex;
-    transition: 0.8s;
+    transition: all 0.8s;
 }
 
 .menu-list:hover{
@@ -37,7 +37,7 @@ body{
     background-size: cover;
 }
 
-#li1::after{
+#li1:hover::after{
     content: "Home";
     width: 100%;
     display: flex;
@@ -54,7 +54,7 @@ body{
     background-size: cover;
 }
 
-#li2::after{
+#li2:hover::after{
     content: "About US";
     width: 100%;
     display: flex;
@@ -71,7 +71,7 @@ body{
     background-size: cover;
 }
 
-#li3::after{
+#li3:hover::after{
     content: "Blog";
     width: 100%;
     display: flex;
@@ -88,7 +88,7 @@ body{
     background-size: cover;
 }
 
-#li4::after{
+#li4:hover::after{
     content: "Projects";
     width: 100%;
     display: flex;
@@ -105,7 +105,7 @@ body{
     background-size: cover;
 }
 
-#li5::after{
+#li5:hover:after{
     content: "Contact Us";
     width: 100%;
     display: flex;
@@ -115,7 +115,6 @@ body{
     font-weight: bolder;
     color: white;
     text-shadow: 5px 5px 5px black;
-    /* visibility: hidden; */
 }
 
 #li5:hover{
